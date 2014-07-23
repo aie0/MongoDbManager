@@ -9,7 +9,7 @@
     // creates new log
     // id - appends id to every log for tracing
     // keepLocalCopy, true - keeps local copy of logs
-    function Logger(id, keepLocalCopy) {
+    function LogManager(id, keepLocalCopy) {
         this.id = id;
         this.keepLocalCopy = keepLocalCopy;
         if (keepLocalCopy) {
@@ -18,7 +18,7 @@
     }
 
     // writes info log
-    Logger.prototype.info = function info(message, obj) {
+    LogManager.prototype.info = function info(message, obj) {
         var log;
         if (obj) {
             log = {d: this.id, t: getCurrentTime(), i: message, o: obj};
@@ -35,7 +35,7 @@
     // message - message of error
     // obj - object associated with error (maybe Exception class)
     // e - exception
-    Logger.prototype.error = function info(message, obj, e) {
+    LogManager.prototype.error = function info(message, obj, e) {
         var log;
         if (obj) {
             if (obj instanceof Error) {
@@ -59,11 +59,11 @@
         }
     };
 
-    Logger.prototype.start = function start(name) {
+    LogManager.prototype.start = function start(name) {
         return {timeStamp: new Date(), name: name};
     };
 
-    Logger.prototype.end = function end(start) {
+    LogManager.prototype.end = function end(start) {
         var log = {d: this.id, t: getCurrentTime(), i: 'delta of (' + start.name + '): ' + (new Date() - start.timeStamp) + ' ms'};
 
         logger.info(log);
@@ -72,7 +72,7 @@
         }
     };
 
-    Logger.init = function init(settings) {
+    LogManager.init = function init(settings) {
         if (!logger) {
             logger = require('winston')
             if (settings.IS_LOGGLY) {
@@ -95,9 +95,9 @@
         }
     }
 
-    Logger.getInstance = function getInstance(keepLocalCopy) {
-        return new Logger(require('node-uuid').v4(), keepLocalCopy);
+    LogManager.getInstance = function getInstance(keepLocalCopy) {
+        return new LogManager(require('node-uuid').v4(), keepLocalCopy);
     };
 
-    module.exports = Logger;
+    module.exports = LogManager;
 }());

@@ -1,7 +1,7 @@
-MongoDbManager
+MongoDbManager NodeJS library
 ==============
 
-MongoDb library wrapper to ease the work with the MongoDb
+NodeJS Mongodb library wrapper to ease the work with the Mongodb database
 --------------
 
 **Main Features:**
@@ -9,5 +9,8 @@ MongoDb library wrapper to ease the work with the MongoDb
 - Find (limit, one or multiple entities retrieval, filter-out MongoDb ids)
 - Update (support for native 'attributes' and 'options' parameters)
 - Insert (Auto-generate custom id field with GUID)
+
+**Dependencies:**
+- LogManager module, please see: https://github.com/aie0/LogManager
 
 Any contribute and feature requests are welcome

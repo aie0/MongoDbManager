@@ -1,8 +1,8 @@
 {
     "dal": {
         "CONNECTION_STRING": "mongodb://tester:1q2w3e4r@ds061198.mongolab.com:61198/test_db?w=1",
-        "TIMEOUT": 2000,
-        "INIT_TIMEOUT": 2000
+        "TIMEOUT": 20000,
+        "INIT_TIMEOUT": 20000
     },
     "errors": {
         "CONNECT_DB": { "code": 2, "message": "Failed to connect to database" },

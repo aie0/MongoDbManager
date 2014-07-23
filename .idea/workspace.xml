@@ -26,25 +26,25 @@
       <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1547">
+            <state line="2" column="52" selection-start="85" selection-end="85" vertical-scroll-proportion="-1.36" vertical-offset="0" max-vertical-offset="1547">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Logger.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/Logger.js">
+      <file leaf-file-name="LogManager.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/LogManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="26" selection-start="2873" selection-end="2873" vertical-scroll-proportion="0.6" vertical-offset="1460" max-vertical-offset="1836">
+            <state line="91" column="37" selection-start="3111" selection-end="3111" vertical-scroll-proportion="-4.2" vertical-offset="1442" max-vertical-offset="1836">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MongoDbDataManager.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MongoDbDataManager.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dal/MongoDbDataManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="144" column="22" selection-start="5737" selection-end="5747" vertical-scroll-proportion="0.7057292" vertical-offset="1" max-vertical-offset="1547">
+            <state line="144" column="22" selection-start="5737" selection-end="5747" vertical-scroll-proportion="-10.84" vertical-offset="1" max-vertical-offset="1547">
               <folding>
                 <element signature="e#208#1127#0" expanded="false" />
                 <element signature="e#1137#1663#0" expanded="false" />
@@ -57,10 +57,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.json" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="config.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="27" selection-start="165" selection-end="165" vertical-scroll-proportion="0.30769232" vertical-offset="76" max-vertical-offset="459">
+            <state line="3" column="24" selection-start="137" selection-end="137" vertical-scroll-proportion="0.24757281" vertical-offset="0" max-vertical-offset="459">
               <folding />
             </state>
           </provider>
@@ -81,9 +81,10 @@
       <list>
         <option value="$PROJECT_DIR$/common/Utils.js" />
         <option value="$PROJECT_DIR$/common/Logger.js" />
-        <option value="$PROJECT_DIR$/config.json" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/dal/MongoDbDataManager.js" />
+        <option value="$PROJECT_DIR$/common/LogManager.js" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/config.json" />
       </list>
     </option>
   </component>
@@ -250,10 +251,10 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5887372" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24981412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2576792" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2576792" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.55972695" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -301,13 +302,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/Logger.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="26" selection-start="2873" selection-end="2873" vertical-scroll-proportion="0.6" vertical-offset="1460" max-vertical-offset="1836">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/mongo_client.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="160" column="29" selection-start="7297" selection-end="7297" vertical-scroll-proportion="0.0" vertical-offset="2627" max-vertical-offset="6358">
@@ -315,23 +309,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.json">
+    <entry file="file://$PROJECT_DIR$/common/LogManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="27" selection-start="165" selection-end="165" vertical-scroll-proportion="0.30769232" vertical-offset="76" max-vertical-offset="459">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1547">
+        <state line="91" column="37" selection-start="3111" selection-end="3111" vertical-scroll-proportion="-4.2" vertical-offset="1442" max-vertical-offset="1836">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dal/MongoDbDataManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="22" selection-start="5737" selection-end="5747" vertical-scroll-proportion="0.7057292" vertical-offset="1" max-vertical-offset="1547">
+        <state line="144" column="22" selection-start="5737" selection-end="5747" vertical-scroll-proportion="-10.84" vertical-offset="1" max-vertical-offset="1547">
           <folding>
             <element signature="e#208#1127#0" expanded="false" />
             <element signature="e#1137#1663#0" expanded="false" />
@@ -340,6 +327,20 @@
             <element signature="e#4341#5508#0" expanded="false" />
             <element signature="e#5933#7221#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="52" selection-start="85" selection-end="85" vertical-scroll-proportion="-1.36" vertical-offset="0" max-vertical-offset="1547">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="24" selection-start="137" selection-end="137" vertical-scroll-proportion="0.24757281" vertical-offset="0" max-vertical-offset="459">
+          <folding />
         </state>
       </provider>
     </entry>

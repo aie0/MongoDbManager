@@ -1,14 +1,14 @@
 (function () {
     'use strict';
-    var logger, nconf = require('nconf'), Logger = require("./common/Logger.js"), dataManager = null,
+    var logger, nconf = require('nconf'), LogManager = require("./common/LogManager.js"), dataManager = null,
 		init = function init() {
 			var path = require('path');
 			nconf.file({
 				file : path.resolve(__dirname,  'config.json')
 			});
 
-            Logger.init(nconf.get("logger"));
-			logger = Logger.getInstance();
+            LogManager.init(nconf.get("logger"));
+			logger = LogManager.getInstance();
 
             // init datamanager
 			dataManager = new (require('./dal/MongoDbDataManager.js'))(nconf.get("dal"), nconf.get("errors"));
